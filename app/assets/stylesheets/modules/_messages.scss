@@ -9,7 +9,6 @@
 .SideBar {
   height: 100vh;
   width: 300px;
-  background-color: #253141;
 }
 
 .LeftHeader {
@@ -24,7 +23,16 @@
 
 
 .Chat {
-  height: 100vh;
   width: calc(100vw - 300px);
-  background-color: #ffffff;
+}
+.RightHeader {
+  height: 100px;
+}
+.MessageField {
+  background-color: #fafafa;
+  height: calc(100vh - 100px - 90px);
+}
+.Footer {
+  background-color: #dddddd;
+  height: 90px;
 }
