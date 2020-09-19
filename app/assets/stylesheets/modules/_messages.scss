@@ -1,3 +1,19 @@
 * {
   box-sizing: border-box;
 }
+
+.Wrapper {
+  display: flex;
+}
+
+.SideBar {
+  height: 100vh;
+  width: 300px;
+  background-color: #253141;
+}
+
+.Chat {
+  height: 100vh;
+  width: calc(100vw - 300px);
+  background-color: #ffffff;
+}
