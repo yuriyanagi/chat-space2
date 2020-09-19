@@ -12,6 +12,17 @@
   background-color: #253141;
 }
 
+.LeftHeader {
+  background-color: #253141;
+  height: 100px;
+}
+.GroupList {
+  background-color: #2f3e51;
+  height: calc(100vh - 100px);
+}
+
+
+
 .Chat {
   height: 100vh;
   width: calc(100vw - 300px);
