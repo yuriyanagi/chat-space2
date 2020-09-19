@@ -1,4 +1,22 @@
 .Chat
   .RightHeader
+    .RightHeader__group
+      .RightHeader__groupName
+        グループ名
+      %ul.RightHeader__memberList
+        Member：
+        %li.RightHeader__member
+          ユーザー名
+    = link_to '#',class: "RightHeader__editButton" do
+      Edit
   .MessageField
+    .MessageBox
+      .MessageInfo
+        .MessageInfo__userName
+          ユーザー名
+        .MessageInfo__date
+          2020/9/20 12:00
+      .Message
+        %p.Message__content
+          おはよう
   .Footer
