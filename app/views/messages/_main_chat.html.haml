@@ -8,8 +8,7 @@
         %li.RightHeader__member
           - @group.users.each do |user|
             =user.name
-    = link_to '#',class: "RightHeader__editButton" do
-      Edit
+    = link_to 'Edit', edit_group_path(@group), class: "RightHeader__editButton"
   .MessageField
     = render @messages
   .Footer
